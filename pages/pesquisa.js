@@ -45,7 +45,7 @@ const Pesquisa = () => {
         O salao Nubia Studio Hair sempre busca por atender melhor seus clientes.<br/>
         Por isso, estamos sempre abertos a ouvir sua opinião.
       </p>
-      {!success && <div className='w-1/4 mx-auto sm:justify-center'>
+      {!success && <div className='w-1/4 mx-auto sm:justify-left'>
         <form class='' onSubmit={formik.handleSubmit}>
           <label className='font-bold'>Seu nome:</label>
           <input 
