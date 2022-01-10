@@ -3,14 +3,14 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      'tablet': '640px',
-      // => @media (min-width: 640px) { ... }
+      'sm': '576px',
+      // => @media (min-width: 576px) { ... }
 
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... }
+      'md': '960px',
+      // => @media (min-width: 960px) { ... }
 
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... }
+      'lg': '1440px',
+      // => @media (min-width: 1440px) { ... }
     },
   }, 
   variants: {},
